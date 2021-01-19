@@ -1,0 +1,60 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="male_cat_names">
+        <item>Oliver</item>
+        <item>Leo</item>
+        <item>Milo</item>
+        <item>Charlie</item>
+        <item>Simba</item>
+        <item>Max</item>
+        <item>Jack</item>
+        <item>Loki</item>
+        <item>Tiger</item>
+        <item>Jasper</item>
+        <item>Ollie</item>
+        <item>Oscar</item>
+        <item>George</item>
+        <item>Buddy</item>
+        <item>Toby</item>
+        <item>Smokey</item>
+        <item>Finn</item>
+        <item>Felix</item>
+        <item>Simon</item>
+        <item>Shadow</item>
+        <item>Louie</item>
+        <item>Salem</item>
+        <item>Binx</item>
+        <item>Dexter</item>
+        <item>Gus</item>
+
+    </string-array>
+
+    <string-array name="female_cat_names">
+        <item>Luna</item>
+        <item>Bella</item>
+        <item>Lucy</item>
+        <item>Kitty</item>
+        <item>Lily</item>
+        <item>Nala</item>
+        <item>Chloe</item>
+        <item>Cleo</item>
+        <item>Stella</item>
+        <item>Sophie</item>
+        <item>Daisy</item>
+        <item>Lola</item>
+        <item>Willow</item>
+        <item>Mia</item>
+        <item>Gracie</item>
+        <item>Callie</item>
+        <item>Olive</item>
+        <item>Molly</item>
+        <item>Cali</item>
+        <item>Kiki</item>
+        <item>Ellie</item>
+        <item>Princess</item>
+        <item>Penny</item>
+        <item>Pepper</item>
+        <item>Lilly</item>
+        <item>Zoey</item>
+    </string-array>
+</resources>

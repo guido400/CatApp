@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.android.catapp.ui.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/ShowCatsFragment">
+        <action
+            android:id="@+id/action_FirstFragment_to_createCatFragment"
+            app:destination="@id/createCatFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_updateCatFragment"
+            app:destination="@id/updateCatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createCatFragment"
+        android:name="com.example.android.catapp.CreateCatFragment"
+        android:label="fragment_create_cat"
+        tools:layout="@layout/fragment_create_cat" >
+        <action
+            android:id="@+id/action_createCatFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateCatFragment"
+        android:name="com.example.android.catapp.UpdateCatFragment"
+        android:label="fragment_update_cat"
+        tools:layout="@layout/fragment_update_cat" >
+        <action
+            android:id="@+id/action_updateCatFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>
